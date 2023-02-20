@@ -59,3 +59,5 @@ SELECT * FROM user_SEQUENCES;
 
 DROP TABLE users;
 DROP SEQUENCE users_seq;
+
+ALTER TABLE users modify user_role varchar2 (15);
