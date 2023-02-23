@@ -55,9 +55,15 @@ INCREMENT BY 1;
 
 SELECT * FROM users;
 
+SELECT * FROM sns_info;
+
 SELECT * FROM user_SEQUENCES;
 
 DROP TABLE users;
 DROP SEQUENCE users_seq;
 
 ALTER TABLE users modify user_role varchar2 (15);
+
+SELECT * FROM tb_user;
+
+commit;

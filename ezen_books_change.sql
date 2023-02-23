@@ -18,6 +18,13 @@ alter table BOOKS
 alter table BOOKS
     modify BOOK_AUTHOR VARCHAR2(100);
     
+-- 2023 / 02 /20 권한쪽 수정사항
+ALTER TABLE users modify user_role varchar2 (15);
+    
+    
+-- 2023 / 02 / 23 구현과정중 사용이 어려워서 삭제
+    DELETE FROM "EZENBOOKS"."BOOK_CATEGORY" WHERE CATEGORY_CODE = 1;
+    
     
     
     
